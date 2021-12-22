@@ -5,10 +5,13 @@ import Vue from 'vue'
 //弹窗组件
 // import {Button,} from 'element-ui'
 //按需导入
-import {Message,Form,FormItem,Input,
-    Button,Container,Header,Main,Aside,
-    Menu,Submenu,MenuItem,Breadcrumb,BreadcrumbItem,
-    Card,Row,Col,Table,TableColumn,Switch,Pagination,Dialog,Tooltip,MessageBox } from "element-ui";
+import {
+    Message, Form, FormItem, Input,
+    Button, Container, Header, Main, Aside,
+    Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem,
+    Card, Row, Col, Table, TableColumn, Switch, Pagination, Dialog, Tooltip,
+    MessageBox, Tag, Tree, Select,Option
+} from "element-ui";
 
 
 Vue.use(Button)
@@ -33,6 +36,10 @@ Vue.use(Switch)
 Vue.use(Pagination)
 Vue.use(Dialog)
 Vue.use(Tooltip)
+Vue.use(Tag)
+Vue.use(Tree)
+Vue.use(Select)
+Vue.use(Option)
 
 //全局组件
 Vue.prototype.$message = Message
