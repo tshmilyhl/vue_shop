@@ -10,7 +10,8 @@ import {
     Button, Container, Header, Main, Aside,
     Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem,
     Card, Row, Col, Table, TableColumn, Switch, Pagination, Dialog, Tooltip,
-    MessageBox, Tag, Tree, Select,Option,Cascader,Alert,Tabs,TabPane
+    MessageBox, Tag, Tree, Select, Option, Cascader, Alert, Tabs, TabPane, Step, Steps, Checkbox,
+    CheckboxGroup, Upload
 } from "element-ui";
 
 
@@ -44,6 +45,13 @@ Vue.use(Cascader)
 Vue.use(Alert)
 Vue.use(Tabs)
 Vue.use(TabPane)
+Vue.use(Steps)
+Vue.use(Step)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Upload)
+
+
 
 //全局组件
 Vue.prototype.$message = Message
