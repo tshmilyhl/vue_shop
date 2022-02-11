@@ -11,7 +11,7 @@ import {
     Menu, Submenu, MenuItem, Breadcrumb, BreadcrumbItem,
     Card, Row, Col, Table, TableColumn, Switch, Pagination, Dialog, Tooltip,
     MessageBox, Tag, Tree, Select, Option, Cascader, Alert, Tabs, TabPane, Step, Steps, Checkbox,
-    CheckboxGroup, Upload
+    CheckboxGroup, Upload,Timeline,TimelineItem
 } from "element-ui";
 
 
@@ -50,8 +50,8 @@ Vue.use(Step)
 Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
 Vue.use(Upload)
-
-
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 
 //全局组件
 Vue.prototype.$message = Message
